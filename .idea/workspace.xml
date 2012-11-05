@@ -23,7 +23,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="6" selection-start="16" selection-end="16" vertical-scroll-proportion="0.025510205">
+            <state line="1" column="0" selection-start="10" selection-end="10" vertical-scroll-proportion="0.025510205">
               <folding />
             </state>
           </provider>
@@ -129,6 +129,11 @@
         </serverdata>
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/Project" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -246,7 +251,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="16" selection-end="16" vertical-scroll-proportion="0.025510205">
+        <state line="1" column="0" selection-start="10" selection-end="10" vertical-scroll-proportion="0.025510205">
           <folding />
         </state>
       </provider>
