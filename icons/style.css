@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'iconMoon_sasky_11_12';
+	src:url('iconMoon_sasky_11_12.eot');
+	src:url('iconMoon_sasky_11_12.eot?#iefix') format('embedded-opentype'),
+		url('iconMoon_sasky_11_12.svg#iconMoon_sasky_11_12') format('svg'),
+		url('fonts/iconMoon_sasky_11_12.woff') format('woff'),
+		url('fonts/iconMoon_sasky_11_12.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'iconMoon_sasky_11_12';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'iconMoon_sasky_11_12';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-twitter:before {
+	content: "\e000";
+}
+.icon-feed:before {
+	content: "\e001";
+}
+.icon-wordpress:before {
+	content: "\e002";
+}
+.icon-github:before {
+	content: "\e003";
+}
+.icon-vimeo:before {
+	content: "\e004";
+}
+.icon-phone:before {
+	content: "\e005";
+}
+.icon-skype:before {
+	content: "\e006";
+}
+.icon-html5:before {
+	content: "\e007";
+}
+.icon-list:before {
+	content: "\e008";
+}
+.icon-envelope:before {
+	content: "\e009";
+}
+.icon-search:before {
+	content: "\e00a";
+}
+.icon-arrow-left:before {
+	content: "\e00b";
+}
+.icon-arrow-right:before {
+	content: "\e00c";
+}
+.icon-arrow-left-2:before {
+	content: "\e00d";
+}
+.icon-arrow-right-2:before {
+	content: "\e00e";
+}
+.icon-arrow-right-3:before {
+	content: "\e00f";
+}
+.icon-arrow-left-3:before {
+	content: "\e010";
+}
+.icon-list-2:before {
+	content: "\e011";
+}
+.icon-facebook:before {
+	content: "\e012";
+}
+.icon-rss-alt:before {
+	content: "\e013";
+}

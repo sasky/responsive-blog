@@ -1,0 +1,79 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Fonts and Icons
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@font-face {
+  font-family: 'CorbelRegular';
+  src:  url("../fonts/corbel-webfont.eot");
+  src:  url("../fonts/corbel-webfont.eot#iefix") format('embedded-opentype'),
+        url('../fonts/corbel-webfont.woff') format('woff'),
+        url('../fonts/corbel-webfont.ttf') format('truetype'),
+        url('../fonts/corbel-webfont.svg#CorbelRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+	font-family: 'iconMoon_sasky_11_12';
+	src:url('../icons/iconMoon_sasky_11_12.eot');
+	src:url('../icons/iconMoon_sasky_11_12.eot?#iefix') format('embedded-opentype'),
+		url('../icons/iconMoon_sasky_11_12.woff') format('woff'),
+		url('../icons/iconMoon_sasky_11_12.ttf') format('truetype'),
+        url('../icons/iconMoon_sasky_11_12.svg#iconMoon_sasky_11_12') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'duepuntozero';
+    src: url('../fonts/duepuntozero_extralight-webfont.eot');
+    src: url('../fonts/duepuntozero_extralight-webfont?#iefix') format('embedded-opentype'),
+         url('../fonts/duepuntozero_extralight-webfont.woff') format('woff'),
+         url('../fonts/duepuntozero_extralight-webfont.ttf') format('truetype'),
+         url('../fonts/duepuntozero_extralight-webfont.svg#duepuntozero') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'duepuntozero';
+    src: url('../fonts/duepuntozero_regular-webfont.eot');
+    src: url('../fonts/duepuntozero_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/duepuntozero_regular-webfont.woff') format('woff'),
+         url('../fonts/duepuntozero_regular-webfont.ttf') format('truetype'),
+         url('../fonts/duepuntozero_regular-webfont.svg#duepuntozero') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+[data-icon]:before {
+	font-family: 'iconMoon_sasky_11_12';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Variables
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// colours
+$bg_green : #44DCB3;
+$dark_grey : #1F1E1E;
+$grey : #bbb0b0;
+$light_grey : #D8D8D8;
+$link : #115DD6;
+$white : #F3F3F3;
+$orange : #FB7000;
+$light_blue :#33CCFF;
+$pink : #C1006C;
+$red : #D93434;
+// Large
+$large: 900px;
+$l_padding: 2em;
+$l_padding_2_3rd: ( $l_padding / 3 ) * 2;
+// medium
+$medium : 700px;
+
+// small
+$small: 500px;
+$s_padding: 0.4em;
+$l_padding_2_3rd: ( $s_padding / 3 ) * 2;
+

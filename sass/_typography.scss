@@ -1,0 +1,34 @@
+body {
+  font-family: CorbelRegular, Verdana, sans-serif;
+  line-height: 1.5em;
+  font-size:16px;
+  color: $dark_grey;
+  @media (min-width: $medium ){
+    font-size: 18px;
+  }
+
+}
+h1 {
+  font-size: 2.4em;
+  font-weight: bold;
+  color: $orange;
+  line-height: 1em;
+  font-family: duepuntozero , Verdana, sans-serif;
+}
+.content h1 {
+
+}
+a {
+  color: $link;
+  &:visted {color: $link;}
+  &:hover, &:focus, &:active  {color: darken($link , 10);}
+}
+.entry-meta {
+  margin-top: -1.8em;
+  color: $grey;
+  padding-bottom: 1em;
+}
+.content p {
+  font-family: times;
+
+}
